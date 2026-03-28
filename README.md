@@ -6,7 +6,7 @@
 
 We generate conceptual engineering designs of electric vertical take-off and landing (eVTOL) aircraft. We follow the paradigm of simulation-based inference (SBI), whereby we look to learn a posterior distribution over the full eVTOL design space. To learn this distribution, we sample over discrete aircraft configurations (topologies) and their corresponding set of continuous parameters. Therefore, we introduce a hierarchical probabilistic model consisting of two diffusion models. The first model leverages recent work on Riemannian Diffusion Language Modeling (RDLM) and Unified World Models (UWMs) to enable us to sample topologies from a discrete and continuous space. For the second model we introduce a masked diffusion approach to sample the corresponding parameters conditioned on the topology.
 
-**Paper**: !!!
+**Paper**: [Link](https://arxiv.org/abs/2603.13284)
 
 **Dataset**: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18763654.svg)](https://doi.org/10.5281/zenodo.18763654)
 
